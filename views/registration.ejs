@@ -1,0 +1,38 @@
+<%include header.ejs%>
+<div class="container">
+    <div class="row">
+
+        <h1 class="page-header text-center">Registration</h1>
+
+        <div class="col-md-push-3 col-md-6 col-xs-12">
+            <form class="" method="post" action="registration">
+                <div class="form-group">
+                    <label for="name">Username</label>
+                    <input type="text" id="name" name="username" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="image">Profile picture URL</label>
+                    <input type="text" id="image" name="image" class="form-control">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary">Sign up</button>
+                    <a href="/login" class="btn btn-default">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%include footer.ejs%>
